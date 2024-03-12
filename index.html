@@ -29,14 +29,37 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
+            <ul class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
+            </ul>
         </div>
     </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile_pic.jpg" alt="DP">
+
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Divyesh Patel</h1>
+            <p class="section_text_p2">CS Graduate</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/divyesh_patel_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/divyessh01/'">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Divyessh01'">
+            </div>
+        </div>
+    </section>
 
     <div>
         Hello, World!
